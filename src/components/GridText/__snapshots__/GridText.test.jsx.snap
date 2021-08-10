@@ -14,7 +14,11 @@ exports[`<GridText /> should render with background 1`] = `
 }
 
 .c6 {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
+}
+
+.c2 {
+  width: 1200px;
 }
 
 .c2 .c5 {
@@ -26,23 +30,26 @@ exports[`<GridText /> should render with background 1`] = `
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
   gap: 3.2rem;
+  overflow: hidden;
+  width: 100%;
 }
 
 .c8 .c3 {
   position: relative;
   left: 5rem;
+  font-size: 2.4rem;
 }
 
 .c8 .c3::before {
   counter-increment: grid-counter;
   content: counter(grid-counter);
   position: absolute;
-  font-size: 7rem;
+  font-size: 5rem;
   top: -3rem;
   left: -5rem;
-  -webkit-transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
-  transform: rotate(5deg);
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
 }
 
 .c1 {
@@ -68,6 +75,12 @@ exports[`<GridText /> should render with background 1`] = `
 @media (max-width:768px) {
   .c4 {
     font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -157,7 +170,11 @@ exports[`<GridText /> should render without background 1`] = `
 }
 
 .c6 {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
+}
+
+.c2 {
+  width: 1200px;
 }
 
 .c2 .c5 {
@@ -169,23 +186,26 @@ exports[`<GridText /> should render without background 1`] = `
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
   gap: 3.2rem;
+  overflow: hidden;
+  width: 100%;
 }
 
 .c8 .c3 {
   position: relative;
   left: 5rem;
+  font-size: 2.4rem;
 }
 
 .c8 .c3::before {
   counter-increment: grid-counter;
   content: counter(grid-counter);
   position: absolute;
-  font-size: 7rem;
+  font-size: 5rem;
   top: -3rem;
   left: -5rem;
-  -webkit-transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
-  transform: rotate(5deg);
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
 }
 
 .c1 {
@@ -211,6 +231,12 @@ exports[`<GridText /> should render without background 1`] = `
 @media (max-width:768px) {
   .c4 {
     font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    grid-template-columns: 1fr;
   }
 }
 

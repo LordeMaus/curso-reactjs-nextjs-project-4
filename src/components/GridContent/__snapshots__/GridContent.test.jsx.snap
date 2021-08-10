@@ -28,7 +28,7 @@ exports[`<GridContent /> should render grid content 1`] = `
 }
 
 .c5 {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
 }
 
 .c2 {
@@ -186,7 +186,7 @@ exports[`<GridContent /> should render grid content 2`] = `
 }
 
 .c5 {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
 }
 
 .c2 {

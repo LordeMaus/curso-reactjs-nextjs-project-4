@@ -42,7 +42,7 @@ exports[`<GridTwoColumn /> should render two column grid 1`] = `
 }
 
 .c6 {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
 }
 
 @media (max-width:768px) {

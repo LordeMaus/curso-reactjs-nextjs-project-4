@@ -3,14 +3,15 @@
 exports[`<MenuLink /> should open in a new tab 1`] = `
 .c0 {
   display: block;
-  text-text-decoration: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font-size: 1.6rem;
   padding: 1.6rem;
   color: #0A1128;
   position: relative;
 }
 
-.c0:::after {
+.c0::after {
   content: '';
   position: absolute;
   bottom: 0.75rem;
@@ -22,7 +23,7 @@ exports[`<MenuLink /> should open in a new tab 1`] = `
   transition: all 0.3s ease-in-out;
 }
 
-.c0::hover:::after {
+.c0:hover::after {
   left: 25%;
   width: 50%;
 }
