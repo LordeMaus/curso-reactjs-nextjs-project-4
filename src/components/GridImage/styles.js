@@ -13,8 +13,12 @@ export const Container = styled.div`
 export const Grid = styled.div`
   ${({ theme }) => css`
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
     gap: ${theme.spacing.large};
+
+    @media ${theme.media.lteMedium} {
+      grid-template-columns: 1fr;
+    }
   `}
 `;
 

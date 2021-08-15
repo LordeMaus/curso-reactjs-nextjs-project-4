@@ -3,7 +3,6 @@ import { Title as HeadingContainer } from '../Heading/styles';
 import { Container as TextComponent } from '../TextComponent/styles';
 
 export const Container = styled.div`
-  width: 1200px;
   ${({ theme }) => css`
       ${TextComponent} {
         margin-bottom: ${theme.spacing.xhuge};
@@ -16,7 +15,7 @@ export const Grid = styled.div`
   ${({ theme }) => css`
     counter-reset: grid-counter;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
     gap: ${theme.spacing.large};
     overflow: hidden;
     width: 100%;
